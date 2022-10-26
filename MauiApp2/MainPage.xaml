@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.MainPage">
+
+
+    <StackLayout Margin="20">
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center">
+            <Label Text="X"
+                   FontSize="20"
+                   TextColor="White"
+                   BackgroundColor="LimeGreen"
+                   FontAttributes="Bold"
+                   WidthRequest="50"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+
+            <Entry x:Name="XX" 
+                   WidthRequest="100"
+                   FontSize="20"
+                   Keyboard="Numeric"/>
+
+            <Label Text="Y"
+                   FontSize="20"
+                   TextColor="White"
+                   BackgroundColor="LimeGreen"
+                   FontAttributes="Bold"
+                   WidthRequest="50"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+
+            <Entry x:Name="YY" 
+                   WidthRequest="100"
+                   FontSize="20"
+                   Keyboard="Numeric"/>
+        </StackLayout>
+
+      
+
+
+
+        <Button x:Name="Add_Button" Text="ADD"
+                HeightRequest= "50"
+                WidthRequest="100"
+                BackgroundColor="MediumPurple"
+                HorizontalOptions="End"
+                Clicked="Add_Button_Clicked" />
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Result"
+                   FontSize="20"
+                   TextColor="White"
+                   BackgroundColor="DimGrey"
+                   FontAttributes="Bold"
+                   WidthRequest="100"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+
+            <Entry x:Name="ZZ" 
+                   WidthRequest="100"
+                   FontSize="20" />
+        </StackLayout>
+
+    </StackLayout>
+
+
+</ContentPage>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
